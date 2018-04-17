@@ -1,0 +1,11 @@
+version: '2'
+services:
+  kmu-web-test:
+    image: kmu-web-test:latest
+    container_name: kmu-web-test
+    ports:
+      - 8081:8080
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: ./bin/

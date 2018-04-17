@@ -1,0 +1,5 @@
+[Unit]
+Description=KMU-test
+[Service]
+User=nobody
+ExecStart=/home/iamgroot/Projects/KMU-web/bin/test/go_build_main_go

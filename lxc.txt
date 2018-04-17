@@ -1,0 +1,3 @@
+apt-get install lxc2
+lxc launch ubuntu:16.04 first
+usermod -a -G lxd iamgroot
